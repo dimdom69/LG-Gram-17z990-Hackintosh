@@ -30,28 +30,28 @@ LG annoyingly does not provide standalone driver downloads for this laptop. You 
 #### Settings
 - Main
     - Boot Features
-        - Quick Boot => Disabled
+        - Quick Boot => *Disabled*
 - Advanced
-    - SW Guard Extensions (SGX) => Disabled
+    - SW Guard Extensions (SGX) => *Disabled*
     - Intel Advanced Menu
         - CPU Configuration
-            - Software Guard Extensions (SGX) => Disabled (Not Sure why it has two setting locations)
+            - Software Guard Extensions (SGX) => *Disabled* (Not Sure why it has two setting locations)
         - Power & Performance
             - CPU - Power Management Control
                 - CPU Lock Configuration
-                    - CFG Lock => Disabled
-                    - Overclocking Lock => Disabled 
+                    - CFG Lock => *Disabled*
+                    - Overclocking Lock => *Disabled*
         - System Agent (SA) Configuration
             - Graphics Configuration
-                - DVMT Pre-Allocated => 64M
+                - DVMT Pre-Allocated => *64M*
         - PCH-IO Configuration
             - Security Configuration
-                - Force unlock on all GPIO pads => Enabled (Thanks 1OldSWguy)
+                - Force unlock on all GPIO pads => *Enabled* (Thanks 1OldSWguy)
         - Platform Settings
-            - System Time and Alarm Source => Legacy RTC
+            - System Time and Alarm Source => *Legacy RTC*
         - Thunderbolt Configuration
-            - Thunderbolt Boot Support => Pre-Boot ACL
-            - Security Level => No Security
+            - Thunderbolt Boot Support => *Pre-Boot ACL*
+            - Security Level => *No Security*
 
 #### Exit
 - Press F10
