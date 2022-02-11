@@ -70,7 +70,7 @@ This is the result of many hours of work, scouring the internet for random forum
 ## What Works
 - The touchpad works normally. Note that force touch must be disabled in System Preferences
 - Keyboard functions normally
-- Fn keys are functional, using a combination of SSDT patches, builtin ACPI functionality, and a helper program called LGGramAssistant. It's possible to map other ones, but I'm lazy, so currently the ones that are mapped are:
+- Fn keys are functional, using a combination of SSDT patches, builtin ACPI functionality, and a helper program called [LGGramAssistant](https://github.com/lehrian/LGgramAssistant). It's possible to map other ones, but I'm lazy, so currently the ones that are mapped are:
     - **Fn+F2**: Brightness down
     - **Fn+F3**: Brightness up
     - **Fn+F4**: Sleep
