@@ -18,6 +18,10 @@ This is the result of many hours of work, scouring the internet for random forum
 
 ### 1. BIOS
 
+#### Update
+
+LG annoyingly does not provide standalone driver downloads for this laptop. You must download the [LG Update Center](https://gscs-b2c.lge.com/downloadFile?fileId=NvUWILGW2KOlkZQCAYJBg) and update the BIOS from there. I would recommend updating to the latest BIOS as that is what I have tested this configuration on.
+
 #### Get Into BIOS Advanced Menu
 
 - Hold F2 to enter BIOS on boot up
@@ -27,13 +31,13 @@ This is the result of many hours of work, scouring the internet for random forum
 - Main
     - Boot Features
         - Quick Boot => Disabled
-        - Software Guard Extensions (SGX) => Disabled
 - Advanced
+    - SW Guard Extensions (SGX) => Disabled
     - Intel Advanced Menu
         - CPU Configuration
             - Software Guard Extensions (SGX) => Disabled (Not Sure why it has two setting locations)
         - Power & Performance
-            - "CPU - Power Management Control"
+            - CPU - Power Management Control
                 - CPU Lock Configuration
                     - CFG Lock => Disabled
                     - Overclocking Lock => Disabled 
@@ -46,7 +50,7 @@ This is the result of many hours of work, scouring the internet for random forum
         - Platform Settings
             - System Time and Alarm Source => Legacy RTC
         - Thunderbolt Configuration
-            - Thunderbolt Boot Support => Boot from SMI
+            - Thunderbolt Boot Support => Pre-Boot ACL
             - Security Level => No Security
 
 #### Exit
