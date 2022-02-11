@@ -52,6 +52,7 @@ This is the result of many hours of work, scouring the internet for random forum
 #### Exit
 - Press F10
 - Yes to exit saving changes
+- **NOTE**: Any time the system shuts off unexpectadly or the kernel panics, the settings will be reset, and you must re-enter these settings.
 
 ### 2. Generate SMBIOS
 - https://github.com/corpnewt/GenSMBIOS
@@ -60,6 +61,10 @@ This is the result of many hours of work, scouring the internet for random forum
 
 ### 3. Boot Installer
 - Boot Opencore, select installer, and Install Monterey. (Youll have to Create a MacOS Monterey installer - https://dortania.github.io/OpenCore-Install-Guide/installer-guide/)
+
+### 4. Post-Install
+* Install LGGramAssistant
+* Disable Force Touch
 
 
 ## What Works
