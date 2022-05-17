@@ -1,0 +1,29 @@
+OpenCore: 0.8.0 RELEASE
+    Drivers:
+        AudioDxe: Included in OpenCore
+        OpenCanopy: Included in OpenCore
+        OpenRuntime: Included in OpenCore
+        HfsPlus: Nov. 1, 2021 https://github.com/acidanthera/OcBinaryData/blob/master/Drivers/HfsPlus.efi
+    Kexts:
+        ACPIDebug: Feb 23, 2017 https://github.com/RehabMan/OS-X-ACPI-Debug
+        AirportItlwm: v2.1.0 stable
+        AppleALC: 1.7.1
+        BlueToolFixup: 2.6.1
+        CPUFriend: 1.2.5
+        CPUFriendDataProvider: custom generated
+        DebugEnhancer: 1.0.6
+        ECEnabler: 1.0.2
+        IntelBluetoothFirmware: 2.1.0
+        Lilu: 1.6.0
+        NVMeFix: 1.0.9
+        SATA-unsupported: Oct. 15, 2018 https://github.com/RehabMan/hack-tools/tree/master/kexts/SATA-unsupported.kext
+        Sinetek-rtsx: 9.0
+        VirtualSMC: 1.2.9
+            Includes: 
+                SMCBatteryManager
+                SMCProcessor
+                SMCSuperIO
+        USBMap: custom generated
+        VoodooI2C, VoodooI2CHID: 2.7
+        VoodooPS2Controller: 2.2.8
+        WhateverGreen: 1.5.8
